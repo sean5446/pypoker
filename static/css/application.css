@@ -1,49 +1,57 @@
 h1 .py {
-    color: #66C;
+  color: #ed4832;
 }
 
 a:hover, a:active, a:visited {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 body {
-    background-color: #000;
-    color: #EED;
+  background-color: #172633; /* 000 */
+  color: #EED;
 }
 
 .jumbotron {
-    color: #333;
+  color: #333;
 }
 
 #main a {
-    color: #EED;
+  color: #EED;
 }
 
 #login-bar {
-    width: 320px;
-    text-align: center;
+  width: 320px;
+  text-align: center;
 }
 
 #login-bar .login-link {
-    display: block;
-    width: 320px;
-    border-radius: 10px;
-    font-size: 20pt;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    margin: 10px 0px;
+  display: block;
+  width: 320px;
+  border-radius: 10px;
+  font-size: 20pt;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 10px 0px;
 }
 
 #login-bar .login-link.facebook {
-    background-color: #336699;
-    background-image: url('../images/facebook-logo.png');
-    background-repeat: no-repeat;
-    background-position: left center;
-    padding-left: 30px;
+  background-color: #336699;
+  background-image: url('../images/facebook-logo.png');
+  background-repeat: no-repeat;
+  background-position: left center;
+  padding-left: 30px;
 }
 
 #login-bar .login-link.test {
-    background-color: #333;
+  background-color: #333;
+}
+
+#activity-log {
+  background: #DDD;
+  color: #000;
+  border: 1px;
+  height: auto;
+  width: auto;
 }
 
 /*****************************************************
@@ -52,200 +60,200 @@ body {
  *****************************************************/
 
 #players .seat {
-    float: left;
-    width: 80px;
-    height: 120px;
-    text-align: center;
-    padding: 10px 5px 5px 5px;
-    margin: 5px 25px 0px 25px;
-    position: absolute;
-    font-size: 7pt;
+  float: left;
+  width: 80px;
+  height: 120px;
+  text-align: center;
+  padding: 10px 5px 5px 5px;
+  margin: 5px 25px 0px 25px;
+  position: absolute;
+  font-size: 7pt;
 }
 
 #players .seat[data-key="0"] {
-    top: -70px;
-    left: 0%;
+  top: -70px;
+  left: 0%;
 }
 
 #players .seat[data-key="1"] {
-    top: -100px;
-    left: 20%;
+  top: -100px;
+  left: 20%;
 }
 
 #players .seat[data-key="2"] {
-    top: -100px;
-    left: 40%;
+  top: -100px;
+  left: 40%;
 }
 
 #players .seat[data-key="3"] {
-    top: -100px;
-    left: 60%;
+  top: -100px;
+  left: 60%;
 }
 
 #players .seat[data-key="4"] {
-    top: -70px;
-    left: 80%;
+  top: -70px;
+  left: 80%;
 }
 
 #players .seat[data-key="9"] {
-    bottom: -50px;
-    left: 0%;
+  bottom: -50px;
+  left: 0%;
 }
 
 #players .seat[data-key="8"] {
-    bottom: -80px;
-    left: 20%;
+  bottom: -80px;
+  left: 20%;
 }
 
 #players .seat[data-key="7"] {
-    bottom: -80px;
-    left: 40%;
+  bottom: -80px;
+  left: 40%;
 }
 
 #players .seat[data-key="6"] {
-    bottom: -80px;
-    left: 60%;
+  bottom: -80px;
+  left: 60%;
 }
 
 #players .seat[data-key="5"] {
-    bottom: -50px;
-    left: 80%;
+  bottom: -50px;
+  left: 80%;
 }
 
 
 #players .seat[data-key="0"] .bet-wrapper {
-    top: 125px;
-    left: 50px;
+  top: 125px;
+  left: 50px;
 }
 
 #players .seat[data-key="1"] .bet-wrapper {
-    top: 125px;
-    left: 0px;
+  top: 125px;
+  left: 0px;
 }
 
 #players .seat[data-key="2"] .bet-wrapper {
-    top: 125px;
-    left: -10px;
+  top: 125px;
+  left: -10px;
 }
 
 #players .seat[data-key="3"] .bet-wrapper {
-    top: 125px;
-    left: -25px;
+  top: 125px;
+  left: -25px;
 }
 
 #players .seat[data-key="4"] .bet-wrapper {
-    top: 125px;
-    right: 80px;
+  top: 125px;
+  right: 80px;
 }
 
 #players .seat[data-key="9"] .bet-wrapper {
-    top: -30px;
-    left: 50px;
+  top: -30px;
+  left: 50px;
 }
 
 #players .seat[data-key="8"] .bet-wrapper {
-    top: -30px;
-    left: 0px;
+  top: -30px;
+  left: 0px;
 }
 
 #players .seat[data-key="7"] .bet-wrapper {
-    top: -30px;
-    left: -10px;
+  top: -30px;
+  left: -10px;
 }
 
 #players .seat[data-key="6"] .bet-wrapper {
-    top: -30px;
-    left: -25px;
+  top: -30px;
+  left: -25px;
 }
 
 #players .seat[data-key="5"] .bet-wrapper {
-    top: -30px;
-    right: 80px;
+  top: -30px;
+  right: 80px;
 }
 
 #players .player-info {
-    position: absolute;
-    top: 5px;
-    left: -5px;
-    overflow: hidden;
+  position: absolute;
+  top: 5px;
+  left: -5px;
+  overflow: hidden;
 }
 
-#players .player.fold .cards {
-    opacity: 0.5;
+#players .player .fold .cards {
+  opacity: 0.5;
 }
 
 #players .player.winner .player-info {
-    left: -10px;
-    top: -15px;
-    width: 80px;
-    height: 80px;
-    color: #FFF;
+  left: -10px;
+  top: -15px;
+  width: 80px;
+  height: 80px;
+  color: #FFF;
 }
 
 #players .player.winner .player-name {
-    font-weight: bold;
-    font-size: 11pt;
+  font-weight: bold;
+  font-size: 11pt;
 }
 
 #players .player .player-info {
-    width: 70px;
-    height: 70px;
-    border-radius: 70px;
-    background-color: #333;
-    z-index: 10;
+  width: 70px;
+  height: 70px;
+  border-radius: 70px;
+  background-color: #333;
+  z-index: 10;
 }
 
 #players .player .player-name {
-    padding-top: 15px;
+  padding-top: 15px;
 }
 
 #players .player.current .player-info {
-    background-color: #2377c6;
+  background-color: #2377c6;
 }
 
 #players .player .timer {
-    position: absolute;
-    top: -15px;
-    left: -25px;
-    width: 110px;
-    float: left;
+  position: absolute;
+  top: -15px;
+  left: -25px;
+  width: 110px;
+  float: left;
 }
 
 #players .player .bet-wrapper {
-    position: absolute;
-    width: 60px;
-    height: 25px;
+  position: absolute;
+  width: 60px;
+  height: 25px;
 }
 
 #players .player .bet-wrapper .bet {
-    background-image: url(../images/chips-small.png);
-    background-repeat: no-repeat;
-    background-position: left;
-    padding: 5px 0px 0px 30px;
+  background-image: url(../images/chips-small.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  padding: 5px 0px 0px 30px;
 }
 
 #players .player .timer .textDiv_Seconds {
-    display: none;
+  display: none;
 }
 
 #players .player .player-info p {
-    margin: 0px;
+  margin: 0px;
 }
 
 #players .player .cards {
-    position: absolute;
-    top: 80px;
-    left: -8px;
-    width: 90px;
-    z-index: 20;
+  position: absolute;
+  top: 80px;
+  left: -8px;
+  width: 90px;
+  z-index: 20;
 }
 
 #players .player .cards .card {
-    margin-left: -8px;
+  margin-left: -8px;
 }
 
 #players .player .cards .category {
-    background-color: #333;
+  background-color: #333;
 }
 
 
@@ -255,36 +263,39 @@ body {
  *****************************************************/
 
 .card {
-    float: left;
-    margin: 1px;
-    background-repeat: no-repeat;
+  float: left;
+  margin: 1px;
+  background-repeat: no-repeat;
 }
-
 
 .card.large {
-    background-image: url(../images/cards-large.png);
-    background-position: 0px 0px;
-    background-repeat: no-repeat;
-    width: 75px;
-    height: 125px;
+  background-image: url(../images/cards-large.png);
+  background-position: 0px 0px;
+  background-repeat: no-repeat;
+  width: 75px;
+  height: 125px;
 }
+
 .card.medium {
-    background-image: url(../images/cards-medium.png);
-    background-position: 0px 0px;
-    background-repeat: no-repeat;
-    width: 45px;
-    height: 75px;
+  background-image: url(../images/cards-medium.png);
+  background-position: 0px 0px;
+  background-repeat: no-repeat;
+  width: 45px;
+  height: 75px;
+  position: relative;
+  z-index: 3;
 }
+
 .card.small {
-    background-image: url(../images/cards-small.png);
-    background-position: 0px 0px;
-    background-repeat: no-repeat;
-    width: 24px;
-    height: 40px;
+  background-image: url(../images/cards-small.png);
+  background-position: 0px 0px;
+  background-repeat: no-repeat;
+  width: 24px;
+  height: 40px;
 }
 
 .card.selected {
-    margin-top: -20px;
+  margin-top: -20px;
 }
 
 
@@ -294,48 +305,55 @@ body {
  *****************************************************/
 
 #table-wrapper {
-    position: relative;
-    height: 300px;
-    margin-top: 110px;
-    margin-bottom: 80px;
-    width: 500px;
+  position: relative;
+  height: 300px;
+  margin-top: 110px;
+  margin-bottom: 80px;
+  width: 500px;
 }
 
 #table {
-    background-color: #354b1c;
-    width: 100%;
-    height: 100%;
-    border-radius: 200px;
-    border: 20px solid #222;
-    padding: 10px 5px 10px 5px;
-    font-size: 8pt;
+  background-color: #46790c; /* #354b1c; */
+  width: 100%;
+  height: 100%;
+  border-radius: 200px;
+  border: 20px solid #632207; /* 222 */
+  padding: 10px 5px 10px 5px;
+  font-size: 8pt;
+}
+
+#table-banner {
+  color: #354b1c;
+  font-size: 50pt;
+  position: fixed;
+  left: 23%;
 }
 
 #table .game-info {
-    margin: 50px 10px;
+  margin: 50px 10px;
 }
 
 #table a {
-    color: #FFF;
+  color: #FFF;
 }
 
 #table .row {
-    margin-left: 0px;
-    margin-right: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
 #table #pots {
-    width: 100px;
-    text-align: center;
-    float: left;
+  width: 100px;
+  text-align: center;
+  float: left;
 }
 
 #table #pots .pot {
-    background-image: url(../images/chips-50.png);
-    background-repeat: no-repeat;
-    padding: 15px 0px 10px 40px;
-    height: 45px;
-    font-size: 12pt;
+  background-image: url(../images/chips-50.png);
+  background-repeat: no-repeat;
+  padding: 15px 0px 10px 40px;
+  height: 45px;
+  font-size: 12pt;
 }
 
 #game-status {
@@ -343,46 +361,58 @@ body {
 }
 
 #game-status p {
-    margin: 2px 0px;
-    font-size: 9pt;
-    background-color: #222;
-    padding: 3px;
-    overflow: hidden;
-    height: 30px;
+  margin: 2px 0px;
+  font-size: 9pt;
+  background-color: #222;
+  padding: 3px;
+  overflow: hidden;
+  height: 30px;
 }
 
 #game-status p[data-key="1"] {
-    opacity: 0.8;
+  opacity: 0.8;
 }
 
 #game-status p[data-key="2"] {
-    opacity: 0.6;
+  opacity: 0.6;
 }
 
 #game-status p[data-key="3"] {
-    opacity: 0.4;
+  opacity: 0.4;
 }
 
 #game-status p[data-key="4"] {
-    opacity: 0.2;
+  opacity: 0.2;
 }
 
 #game-log {
-    display: none;
+  display: none;
 }
 
 #game-log {
-    height: 200px;
-    background-color: #333;
-    overflow: auto;
-    width: 100%;
-    margin: 10px 0px;
+  height: 200px;
+  background-color: #333;
+  overflow: auto;
+  width: 100%;
+  margin: 10px 0px;
 }
 
 #game-log p {
-    margin: 5px 10px;
+  margin: 5px 10px;
 }
 
+#dealer-button {
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+  background-color: #FFF;
+  color: #000;
+  font-weight: bolder;
+  text-align: center;
+  position: absolute;
+  left: 15px;
+  z-index: 2;
+}
 
 /*****************************************************
   Current player
@@ -390,31 +420,30 @@ body {
  *****************************************************/
 
 #current-player {
-    display: none;
-    margin-top: 15px;
+  display: none;
+  margin-top: 15px;
 }
 
 #current-player .cards {
-    width: 280px;
-    margin: 10px -25px 0px 25px;
-    position: relative;
+  width: 280px;
+  margin: 10px -25px 0px 25px;
+  position: relative;
 }
 
 #current-player .cards .category {
-    clear: both;
-    width: 280px;
-    text-align: center;
-    background-color: #333;
-    padding: 20px;
-    border-radius: 20px;
-    margin-left: -25px;
+  clear: both;
+  width: 280px;
+  text-align: center;
+  background-color: #333;
+  padding: 20px;
+  border-radius: 20px;
+  margin-left: -25px;
 }
 
 #current-player .cards .card {
-    margin-left: -25px;
-    cursor: pointer;
+  margin-left: -25px;
+  cursor: pointer;
 }
-
 
 /*****************************************************
   Current player controls
@@ -423,22 +452,22 @@ body {
 
 #player-controls .btn,
 #player-controls .slider {
-    width: 280px;
-    padding: 10px;
-    margin: 5px 0px;
+  width: 280px;
+  padding: 10px;
+  margin: 5px 0px;
 }
 
 #player-controls .slider .tooltip {
-    display: none;
+  display: none;
 }
 
 /* Texas holdem fix */
 
 #game-wrapper.texas-holdem #players .player .cards {
-    top: 70px;
-    left: 5px;
+  top: 70px;
+  left: 5px;
 }
 
 #game-wrapper.texas-holdem #players .player .cards .card {
-    margin-left: 0px;
+  margin-left: 0px;
 }

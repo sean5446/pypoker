@@ -1,3 +1,19 @@
+**Thanks to:**
+- https://github.com/epifab/pypoker
+- https://github.com/goldfire/pokersolver
+
+
+**New Features:**
+- audio of chips moving, cards holding, etc. for desktop usage (mobile phones will not automatically play sound)
+- dealer button (not sure if this breaks functionality with traditional poker table)
+- event window that shows history of events: folds, bets, who won, and with what hand
+- UI tweaks (basic stats, auto-fold, auto-check, colors)
+- minimized some JS files for quicker load times
+- favicon for website
+
+![image](https://i.imgur.com/6d74cGG.png)
+
+
 # PyPoker
 
 Poker game application built for fun.
@@ -14,8 +30,6 @@ As soon as a game room has at least two players seated, a new game is kicked off
 During a game session, other players can leave and join the table.
 
 A live demo of this application can be found at: https://pypoker.herokuapp.com
-
-![image](https://cloud.githubusercontent.com/assets/3248824/19602814/950fcbd2-97a6-11e6-9e9d-faabeac2307f.png)
 
 
 ### Architecture
@@ -242,4 +256,5 @@ At this point Jack goes all in:
 ```
 
 The server broadcasts 2 new messages to notify that Jack raised to $50.0 and that it's now Jeff's turn to bet, who wisely decides to fold...
+
 
