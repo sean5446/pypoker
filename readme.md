@@ -4,7 +4,7 @@
 
 
 **New Features:**
-- audio of chips moving, cards holding, etc. for desktop usage (mobile phones will not automatically play sound)
+- audio of chips moving, cards folding, etc. for desktop usage (mobile phones will not automatically play sound)
 - dealer button (not sure if this breaks functionality with traditional poker table)
 - event window that shows history of events: folds, bets, who won, and with what hand
 - UI tweaks (basic stats, auto-fold, auto-check, colors)
